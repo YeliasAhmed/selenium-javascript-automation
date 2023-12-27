@@ -4,7 +4,7 @@
   "description": "sele",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --no-timeouts --parallel --reporter mochawesome --require mochawesome/register "
+    "test": "mocha --no-timeouts --reporter mochawesome --require mochawesome/register --reporter-options reportDir=D://SeleniumFramework/Selenium-javascript/testReports,reportFilename=testResults"
   },
   "keywords": [],
   "author": "",
